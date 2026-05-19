@@ -1,2 +1,2 @@
 # leetcode-solutions
-🧠 Daily LeetCode solutions in Python | DSA Practice |  Solving 1 problem/day | Arrays, Trees, DP, Graphs
+📚 Consistent LeetCode practice repository with Python solutions covering Arrays, Strings, Linked Lists, Trees, Graphs, Dynamic Programming, and more.
