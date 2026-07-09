@@ -1,0 +1,20 @@
+from typing import List
+
+class Solution:
+    def pathExistenceQueries(
+        self,
+        n: int,
+        nums: List[int],
+        maxDiff: int,
+        queries: List[List[int]]
+    ) -> List[bool]:
+
+        group = [0] * n
+
+        for i in range(1, n):
+            group[i] = group[i - 1]
+
+            if nums[i] - nums[i - 1] > maxDiff:
+                group[i] += 1
+
+        return [group[u] == group[v] for u, v in queries]
